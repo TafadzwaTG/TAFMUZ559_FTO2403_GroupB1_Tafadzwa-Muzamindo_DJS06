@@ -1,0 +1,14 @@
+{
+  "name": "tafmuz559_fto2403_groupb1_tafadzwa-muzamindo_djs06",
+  "version": "1.0.0",
+  "description": "Higher Order Functions",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tafadzwa Muzamindo",
+  "license": "ISC",
+  "dependencies": {
+    "react-redux": "^9.1.2"
+  }
+}
