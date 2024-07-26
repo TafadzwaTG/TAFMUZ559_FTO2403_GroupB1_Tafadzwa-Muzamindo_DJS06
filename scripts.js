@@ -45,12 +45,12 @@ console.log(names.map((n) => n.length));
 //Sort and log provinces alphabetically
 console.log([...provinces].sort());
 
-//Filter out provinces containing "Cape" and log othe count
+//Filter out provinces containing "Cape" and log the count
 const noCapeProvinces = provinces.filter((p) => !p.includes("Cape"));
 console.log(`Count of remaining provinces: ${noCapeProvinces.length}`);
 console.log(noCapeProvinces);
 
-//Create a boolean array inicating if a name contains "S"
+//Create a boolean array indicating if a name contains "S"
 console.log(names.map((n) => n.toLowerCase().includes("s")));
 
 //Create an object mapping names to their provinces
